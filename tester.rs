@@ -1,4 +1,7 @@
-https://gist.github.com/wilkie/6227782#[macro_escape];
+// rust testing micro-framework
+// licensed: public domain or cc0
+
+#[macro_escape];
 
 pub use std::uint;
 pub use std::io;
