@@ -2,7 +2,6 @@
 // licensed: public domain or cc0
 
 use tester::*;
-
 mod tester;
 
 fn foo(a: float, b: float) -> float {

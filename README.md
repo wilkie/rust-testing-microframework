@@ -1,3 +1,12 @@
+## Usage
+
+Just use the module and have it be accessible to the load path:
+
+```
+use tester::*;
+mod tester;
+```
+
 ## Syntax
 
 ```
@@ -13,6 +22,10 @@ describe!("module", {
 The `describe` macro establishes a context for a module with `test` macros defining each function. Tests are defined by `should` macros that should describe what behavior is being reflected by the function.
 
 The `must` macros are assertions. The order should be: `must!(computed eq expected);`. For example, to test the function foo: `must!(foo() eq 5);` There are special considerations for floating point: `must!(pi() near 3.1415);` which tests that the given value is within 0.00001 to account for natural floating point error. You can specify the amount of tolerance: `must!(pi() near 3.1415 within 0.001);`
+
+## License
+
+Public domain or CC0.
 
 ## Output
 
