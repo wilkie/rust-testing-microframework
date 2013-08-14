@@ -1,4 +1,4 @@
-#[macro_escape];
+https://gist.github.com/wilkie/6227782#[macro_escape];
 
 pub use std::uint;
 pub use std::io;
