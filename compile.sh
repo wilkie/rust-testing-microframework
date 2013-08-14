@@ -1,0 +1,1 @@
+rustc test.rs && ./test
